@@ -1,0 +1,157 @@
+body {
+    background: url('../images/apple.jpg');
+    background-size: cover;
+}
+
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#form-login{
+    max-width: 350px;
+    background: rgb(255, 255, 255, 0.8);
+    flex-grow: 1;
+    padding: 20px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.form-heading{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group{
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    display: flex;
+  
+    
+}
+.form-group i{
+    color: black;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+    
+    
+}   
+
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    flex-grow: 1;
+    border-radius: 100px;
+    
+}
+#eye i{
+    padding-right: 0;
+    cursor: pointer;
+}
+
+button {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    width: 350px;
+    height: 40px;
+    margin-top: 15px;
+    
+}
+.ghost:hover{
+    background: black;
+    color: white;
+}
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+button.ghost {
+    background-color: transparent;
+    border-color: black;
+}
+.forget{
+    
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+.forget label input{
+    margin-right: 3px;
+    
+}
+
+
+.forget label a{
+    color: black;
+    text-decoration: none;
+    
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+
+
+.register{
+    
+    color: black;
+    text-align: center;
+    margin: 25px 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+
+}
+
+#toggle::before {
+    content: '\f070';
+}
+#toggle::before {
+    content: '\f070';
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    
+    color: black;
+    
+}
+.h2-icon{
+    font-size: 70px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
